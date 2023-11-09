@@ -10,9 +10,9 @@ M.ui = {
   hl_add = {},
   hl_override = {},
   changed_themes = {},
-  theme_toggle = { "onedark", "one_light" },
-  theme = "onedark", -- default theme
-  transparency = false,
+  theme_toggle = { "guvbox", "one_light" },
+  theme = "gruvbox", -- default theme
+  transparency = true,
   lsp_semantic_tokens = false, -- needs nvim v0.9, just adds highlight groups for lsp semantic tokens
 
   -- https://github.com/NvChad/base46/tree/v2.0/lua/base46/extended_integrations
@@ -48,8 +48,8 @@ M.ui = {
 
   -- nvdash (dashboard)
   nvdash = {
-    load_on_startup = false,
-
+    size = 10,
+    load_on_startup = true,
     header = {
       "           ▄ ▄                   ",
       "       ▄   ▄▄▄     ▄ ▄▄▄ ▄ ▄     ",
@@ -61,7 +61,6 @@ M.ui = {
       "█▄█ ▄ █▄▄█▄▄█ █ ▄▄█ █ ▄ █ █▄█▄█ █",
       "    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ █▄█▄▄▄█    ",
     },
-
     buttons = {
       { "  Find File", "Spc f f", "Telescope find_files" },
       { "󰈚  Recent Files", "Spc f o", "Telescope oldfiles" },

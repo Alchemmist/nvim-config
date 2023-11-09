@@ -5,7 +5,7 @@ local config = require("core.utils").load_config()
 -------------------------------------- globals -----------------------------------------
 g.nvchad_theme = config.ui.theme
 g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
-g.toggle_theme_icon = "   "
+g.toggle_theme_icon = "  "
 g.transparency = config.ui.transparency
 
 -------------------------------------- options ------------------------------------------
@@ -15,12 +15,13 @@ opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 
+
 -- Indenting
 opt.expandtab = true
-opt.shiftwidth = 2
+opt.shiftwidth = 4
 opt.smartindent = true
-opt.tabstop = 2
-opt.softtabstop = 2
+opt.tabstop = 4
+opt.softtabstop = 4
 
 opt.fillchars = { eob = " " }
 opt.ignorecase = true

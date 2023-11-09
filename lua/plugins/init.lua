@@ -226,7 +226,6 @@ local default_plugins = {
       require("nvim-tree").setup(opts)
     end,
   },
-
   {
     "nvim-telescope/telescope.nvim",
     dependencies = { "nvim-treesitter/nvim-treesitter", { "nvim-telescope/telescope-fzf-native.nvim", build = "make" } },
