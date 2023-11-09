@@ -3,7 +3,7 @@
 <div align="center">
 	<a href="https://nvchad.com/">NvChad Official</a>
   <span> • </span>
-    	<a href="https:/github.com/ALchmmist/nvim-config/#installation">Install</a>
+    	<a href="https://github.com/Alchemmist/nvim-config#installation">Install</a>
   <span> • </span>
   <p></p>
 </div> 
