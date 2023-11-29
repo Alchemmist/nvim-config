@@ -31,3 +31,4 @@ rt.setup({
     end,
   },
 })
+require('ruscmd').setup{}

@@ -13,6 +13,9 @@ M.general = {
     ["<C-l>"] = { "<Right>", "Move right" },
     ["<C-j>"] = { "<Down>", "Move down" },
     ["<C-k>"] = { "<Up>", "Move up" },
+
+    -- my
+    -- ["<C-BS>"] = { "<ESC>dbi", "Delete previus word" },
   },
 
   n = {
@@ -137,7 +140,6 @@ M.lspconfig = {
       end,
       "LSP declaration",
     },
-
     ["gd"] = {
       function()
         vim.lsp.buf.definition()
@@ -263,6 +265,7 @@ M.nvimtree = {
 
     -- focus
     ["<leader>e"] = { "<cmd> Neotree float<CR>", "Focus nvimtree" },
+    ["<leader>у"] = { "<cmd> Neotree float<CR>", "Focus nvimtree" },
   },
 }
 
