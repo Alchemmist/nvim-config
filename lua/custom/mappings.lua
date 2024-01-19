@@ -5,7 +5,8 @@ M.general = {
       n = {
         ["<leader>w"] = { "<cmd>w<CR>", "Save"},
         ["|"] = { "<cmd>:vsplit<CR>", "Vertical split"},
-        ["<TAB>"] = { "<cmd>:tabNext<CR>", "Go to next tab"}
+        ["<TAB>"] = { "<cmd>:tabNext<CR>", "Go to next tab"},
+        ["."] = {"."}
     }
 }
 
